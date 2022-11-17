@@ -51,13 +51,11 @@ ul {
   justify-content: center;
   align-items: center;
 }
-.mobile-list i {
+.mobile-list .mobile-icon {
   font-size: 1.7rem;
   color: dimgray;
 }
-.mobile-list i.active, .mobile-link.active {
-  color: red;
-}
+
 .mobile-link {
   font-size: 0.7rem;
   color: dimgray;
@@ -66,7 +64,12 @@ ul {
   /* font-size: ; */
 }
 
-
+.mobile-list:hover 
+ .mobile-icon
+{
+  transition: .3s ease;
+  color: red;
+}
 
 main {
   height: 100%;
