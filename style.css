@@ -55,6 +55,9 @@ ul {
   font-size: 1.7rem;
   color: dimgray;
 }
+.mobile-list i.active, .mobile-link.active {
+  color: red;
+}
 .mobile-link {
   font-size: 0.7rem;
   color: dimgray;
@@ -62,6 +65,8 @@ ul {
   letter-spacing: 1px;
   /* font-size: ; */
 }
+
+
 
 main {
   height: 100%;
