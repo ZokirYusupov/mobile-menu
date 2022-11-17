@@ -13,7 +13,7 @@ body {
 
 header,
 footer {
-  padding: 14px 20px;
+  padding: 18px 20px;
   position: fixed;
   left: 0;
   right: 0;
@@ -58,6 +58,9 @@ ul {
 .mobile-link {
   font-size: 0.7rem;
   color: dimgray;
+  margin: 3px 0;
+  letter-spacing: 1px;
+  /* font-size: ; */
 }
 
 main {
