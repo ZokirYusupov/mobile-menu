@@ -222,3 +222,63 @@ aside .account-m  .acc-list .acc-item {
   font-size: 0.8rem;
 }
 /* profil.html */
+
+/* prises html */
+  aside {
+    padding: 15px;
+  }
+  aside .container {
+    margin-top: 2rem;
+    color: white;
+  }
+  .card-box a {
+    color: white;
+    
+  }
+  .card-box {
+    display: flex;
+    width: 100%;
+    height: 140px;
+
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 40px 0;
+  }
+ 
+  .card-box .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+  
+    z-index: 2;
+    /* height: 100%; */
+  }
+  .card img {
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    left: 0;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position: center;
+    filter: blur(1px);
+  }
+  .card-middle a {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .card-footer .coin {
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  .card-footer span {
+    color: rgba(255, 255, 255, 0.959);
+    font-size: 1.5rem;
+  }
+/* prises html */
